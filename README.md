@@ -9,6 +9,7 @@ Versão 5.3
     - [JS components](#js-components)
     - [Globais importantes](#globais-importantes)
     - [Tipos de documentos HTML5](#tipos-de-documentos-html5)
+    - [Tag Meta viewport](#tag-meta-viewport)
 
 ## Começando com Bootstrap
 
@@ -109,4 +110,12 @@ Bootstrap requer o uso do tipo de documento HTML5. Sem ele, você verá alguns e
 <html lang="pt-BR">
   ...
 </html>
+```
+
+### Tag Meta viewport
+
+O Bootstrap é desenvolvido para *mobile first*, uma estratégia na qual primeiro otimizamos o código para dispositivos móveis e depois aumentamos os componentes conforme necessário usando as *media queries* do CSS. Para garantir a renderização adequada e o zoom por toque para todos os dispositivos, adicione a meta tag "*viewport*" no seu ```<head>```.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
