@@ -2,10 +2,11 @@
 Versão 5.3
 
 - [Estudando-bootstrap](#estudando-bootstrap)
-	- [Começando com Bootstrap](#começando-com-bootstrap)
-		- [Começo rápido](#começo-rápido)
-		- [Links CDN](#links-cdn)
-		- [Próximos passos](#próximos-passos)
+  - [Começando com Bootstrap](#começando-com-bootstrap)
+    - [Começo rápido](#começo-rápido)
+    - [Links CDN](#links-cdn)
+    - [Próximos passos](#próximos-passos)
+    - [JS components](#js-components)
 
 ## Começando com Bootstrap
 
@@ -74,4 +75,21 @@ Você também pode usar o CDN para buscar qualquer uma de nossas [compilações 
 * Leia um pouco mais sobre algumas [configurações de ambiente global importantes]() que o Bootstrap utiliza.
 * Leia sobre o que está incluído no Bootstrap em nossa [seção de conteúdo]() e a lista de [componentes que requerem JavaScript]() abaixo.
 * Precisa de um pouco mais de potência? considere construir com Bootstrap [incluindo os arquivos de origem por meio do gerenciador de pacotes]().
-* Quer usar o Bootstrap como um módulo ```<script type="module">```? Consulte nossa seção [sobre como u8sar o Bootstrap como módulo]().
+* Quer usar o Bootstrap como um módulo ```<script type="module">```? Consulte nossa seção [sobre como usar o Bootstrap como módulo]().
+
+### JS components
+
+Curioso para saber quais componentes exigem explicitamente nosso JavaScript e Popper? Se você não tiver certeza sobre a estrutura geral da página, continue lendo para obter um exemplo de modelo da página.
+
+* Alertas com dispersão
+* Botão para alternar estados e funcionalidade de caixa de seleção / rádio
+* Carrossel para todos os comportamentos, controles e indicadores dos slides
+* Recolher para alternar a visibilidade do conteúdo
+* Dropdowns para exibição e posicionamento (também requer [Popper](https://popper.js.org/))
+* Modais para exibição, posicionamento e comportamento de rolagem
+* Navbar para estender nossos plug-ins Collapse e Offcanvas para implementar comportamentos responsivos.
+* Navs com o plugin Tab para alternar painéis de conteúdo
+* Offcanvas para exibição, posicionamento e comportamento de rolagem
+* Scrollspy para comportamento de rolagem e atualizações de navegação
+* Brindes para exibição e dispensa
+* Dicas de ferramentas e popovers para exibição e posicionamento (também requer [Popper](https://popper.js.org/))
