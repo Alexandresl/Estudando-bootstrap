@@ -4,6 +4,7 @@ Versão 5.3
 - [Estudando-bootstrap](#estudando-bootstrap)
 	- [Começando com Bootstrap](#começando-com-bootstrap)
 		- [Começo rápido](#começo-rápido)
+		- [Links CDN](#links-cdn)
 
 ## Começando com Bootstrap
 
@@ -56,3 +57,13 @@ Você também pode incluir o [Popper](https://popper.js.org/) e nosso JS separad
 
 3. **Olá mundo!**. Abra a página no navegador de sua preferência para ver sua página com Bootstrap. Agora você pode começar a construir com Bootstrap criando seus próprios [layouts](https://getbootstrap.com/docs/5.3/layout/grid/), adicionando dezenas de [componentes](https://getbootstrap.com/docs/5.3/components/buttons/) e utilizando [nossos exemplos oficiais](https://getbootstrap.com/docs/5.3/examples/).
 
+### Links CDN
+
+Como referência, aqui estão nossos principais links CDN.
+
+| Descrição | URL                                                                          |
+| --------- | ---------------------------------------------------------------------------- |
+| CSS       | https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css      |
+| JS        | https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js |
+
+Você também pode usar o CDN para buscar qualquer uma de nossas [compilações adicionais listadas na página de conteúdo](https://getbootstrap.com/docs/5.3/getting-started/contents/).
