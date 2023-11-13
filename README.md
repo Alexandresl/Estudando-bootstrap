@@ -7,6 +7,7 @@ Versão 5.3
     - [Links CDN](#links-cdn)
     - [Próximos passos](#próximos-passos)
     - [JS components](#js-components)
+    - [Globais importantes](#globais-importantes)
 
 ## Começando com Bootstrap
 
@@ -93,3 +94,7 @@ Curioso para saber quais componentes exigem explicitamente nosso JavaScript e Po
 * Scrollspy para comportamento de rolagem e atualizações de navegação
 * Brindes para exibição e dispensa
 * Dicas de ferramentas e popovers para exibição e posicionamento (também requer [Popper](https://popper.js.org/))
+
+### Globais importantes
+
+Bootstrap emprega vários estilos e configurações globais importantes, todos quase que exclusivamente voltados para a *normalização* de estilos entre navegadores. Vamos conhecer.
