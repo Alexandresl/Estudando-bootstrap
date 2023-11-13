@@ -5,6 +5,7 @@ Versão 5.3
 	- [Começando com Bootstrap](#começando-com-bootstrap)
 		- [Começo rápido](#começo-rápido)
 		- [Links CDN](#links-cdn)
+		- [Próximos passos](#próximos-passos)
 
 ## Começando com Bootstrap
 
@@ -67,3 +68,10 @@ Como referência, aqui estão nossos principais links CDN.
 | JS        | https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js |
 
 Você também pode usar o CDN para buscar qualquer uma de nossas [compilações adicionais listadas na página de conteúdo](https://getbootstrap.com/docs/5.3/getting-started/contents/).
+
+### Próximos passos
+
+* Leia um pouco mais sobre algumas [configurações de ambiente global importantes]() que o Bootstrap utiliza.
+* Leia sobre o que está incluído no Bootstrap em nossa [seção de conteúdo]() e a lista de [componentes que requerem JavaScript]() abaixo.
+* Precisa de um pouco mais de potência? considere construir com Bootstrap [incluindo os arquivos de origem por meio do gerenciador de pacotes]().
+* Quer usar o Bootstrap como um módulo ```<script type="module">```? Consulte nossa seção [sobre como u8sar o Bootstrap como módulo]().
