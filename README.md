@@ -8,6 +8,7 @@ Versão 5.3
     - [Próximos passos](#próximos-passos)
     - [JS components](#js-components)
     - [Globais importantes](#globais-importantes)
+    - [Tipos de documentos HTML5](#tipos-de-documentos-html5)
 
 ## Começando com Bootstrap
 
@@ -98,3 +99,14 @@ Curioso para saber quais componentes exigem explicitamente nosso JavaScript e Po
 ### Globais importantes
 
 Bootstrap emprega vários estilos e configurações globais importantes, todos quase que exclusivamente voltados para a *normalização* de estilos entre navegadores. Vamos conhecer.
+
+### Tipos de documentos HTML5
+
+Bootstrap requer o uso do tipo de documento HTML5. Sem ele, você verá alguns estilos descolados e incompletos.
+
+```html
+<!doctype html>
+<html lang="pt-BR">
+  ...
+</html>
+```
