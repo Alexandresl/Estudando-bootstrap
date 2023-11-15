@@ -12,6 +12,7 @@ Versão 5.3
     - [Tag Meta viewport](#tag-meta-viewport)
     - [Dimensionamento de caixa](#dimensionamento-de-caixa)
     - [Reboot](#reboot)
+    - [Comunidade](#comunidade)
 
 ## Começando com Bootstrap
 
@@ -143,3 +144,16 @@ Saiba mais sobre [modelo e dimensionamento de caixa em truques CSS](https://css-
 ### Reboot
 
 Para melhorar a renderização entre navegadores, usaremos [Reboot]() para corrigir inconsistências entre navegadores e dispositivos, ao mesmo tempo que fornecemos redefinições um pouco mais opinativas para elementos HTML comuns.
+
+### Comunidade
+
+Mantenha-se atualizado sobre o desenvolvimento do Bootstrap e alcance a comunidade com estes recursos úteis.
+
+* Leia e assine o [blog oficial do Bootstrap](https://blog.getbootstrap.com/)
+* Faça perguntas e explore [nossas discussões no GitHub](https://github.com/orgs/twbs/discussions).
+* Discuta, faça perguntas e muito mais no subreddit da [comunidade Discord](https://discord.com/invite/bZUvakRU3M) ou [Bootstrap](https://www.reddit.com/r/bootstrap/).
+* Converse com outros Bootstrappers no IRC. No servidor ```irc.libera.chat```, no canal ```#bootstrap```.
+* A ajuda de implementação pode ser encontrada em Stack Overflow (marcada como [bootstrap-5](https://stackoverflow.com/questions/tagged/bootstrap-5)).
+* Os desenvolvedores devem usar a palavra chave *bootstrap* em pacotes que modificam ou adicionam funcionalidades ao bootstrap ao distribuir por um meio de [npm](https://www.npmjs.com/search?q=keywords:bootstrap) ou mecanismos de entrega semelhantes para maximizar as buscas.
+
+Você também pode seguir [@getbootstrap](https://twitter.com/getbootstrap) no X para obter as últimas novidades e vídeos incríveis.
