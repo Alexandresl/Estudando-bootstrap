@@ -10,6 +10,7 @@ Versão 5.3
     - [Globais importantes](#globais-importantes)
     - [Tipos de documentos HTML5](#tipos-de-documentos-html5)
     - [Tag Meta viewport](#tag-meta-viewport)
+    - [Dimensionamento de caixa](#dimensionamento-de-caixa)
 
 ## Começando com Bootstrap
 
@@ -119,3 +120,21 @@ O Bootstrap é desenvolvido para *mobile first*, uma estratégia na qual primeir
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
+
+Você pode ver um exemplo disso em ação no [início rápido](#começo-rápido)
+
+### Dimensionamento de caixa
+
+Para um dimensionamento mais direto em CSS, mudamos o valor global do ```box-sizing``` de ```content-box``` para ```border-box```. Isso garante ```padding``` que não afeta a largura final calculada de um elemento, mas pode causar problemas com alguns softwares de terceiros, como o Google Maps e o Google Custom Search Engine.
+
+Nas raras ocasiões em que você precisar substituí-lo, use algo como o modelo a seguir:
+
+```css
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+```
+
+Com o snippet acima, os elementos aninhados - incluindo o conteúdo gerado pr meio de ```::before``` e ```::after``` herdarão o especificado no ```box-sizing``` para o ```.selector-for-some-widget```.
+
+Saiba mais sobre [modelo e dimensionamento de caixa em truques CSS](https://css-tricks.com/box-sizing/).
