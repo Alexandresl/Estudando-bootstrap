@@ -13,6 +13,7 @@ Versão 5.3
     - [Dimensionamento de caixa](#dimensionamento-de-caixa)
     - [Reboot](#reboot)
     - [Comunidade](#comunidade)
+  - [Download](#download)
 
 ## Começando com Bootstrap
 
@@ -157,3 +158,7 @@ Mantenha-se atualizado sobre o desenvolvimento do Bootstrap e alcance a comunida
 * Os desenvolvedores devem usar a palavra chave *bootstrap* em pacotes que modificam ou adicionam funcionalidades ao bootstrap ao distribuir por um meio de [npm](https://www.npmjs.com/search?q=keywords:bootstrap) ou mecanismos de entrega semelhantes para maximizar as buscas.
 
 Você também pode seguir [@getbootstrap](https://twitter.com/getbootstrap) no X para obter as últimas novidades e vídeos incríveis.
+
+## Download
+
+Baixe o Bootstrap para obter o CSS e o JavaScript compilados, código-fonte ou inclua-o em seus gerenciadores de pacotes favoritos, como npm, RubyGems e muito mais.
