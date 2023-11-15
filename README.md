@@ -173,4 +173,6 @@ Baixe o código compilado do Bootstrap Versão 5.3.2, pronto para uso, para inse
 
 Isso não inclui documentação, código fo9nte ou qualquer dependência opcional de javascript como o Popper.
 
-[Download](https://github.com/twbs/bootstrap/releases/download/v5.3.2/bootstrap-5.3.2-dist.zip)
+[Download Versão 5.3.2](https://github.com/twbs/bootstrap/releases/download/v5.3.2/bootstrap-5.3.2-dist.zip)
+
+[Download local Versão 5.3.2](/Download/bootstrap-5.3.2-dist.zip)
