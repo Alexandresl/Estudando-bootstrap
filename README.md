@@ -11,6 +11,7 @@ Versão 5.3
     - [Tipos de documentos HTML5](#tipos-de-documentos-html5)
     - [Tag Meta viewport](#tag-meta-viewport)
     - [Dimensionamento de caixa](#dimensionamento-de-caixa)
+    - [Reboot](#reboot)
 
 ## Começando com Bootstrap
 
@@ -138,3 +139,7 @@ Nas raras ocasiões em que você precisar substituí-lo, use algo como o modelo 
 Com o snippet acima, os elementos aninhados - incluindo o conteúdo gerado pr meio de ```::before``` e ```::after``` herdarão o especificado no ```box-sizing``` para o ```.selector-for-some-widget```.
 
 Saiba mais sobre [modelo e dimensionamento de caixa em truques CSS](https://css-tricks.com/box-sizing/).
+
+### Reboot
+
+Para melhorar a renderização entre navegadores, usaremos [Reboot]() para corrigir inconsistências entre navegadores e dispositivos, ao mesmo tempo que fornecemos redefinições um pouco mais opinativas para elementos HTML comuns.
