@@ -14,6 +14,7 @@ Versão 5.3
     - [Reboot](#reboot)
     - [Comunidade](#comunidade)
   - [Download](#download)
+    - [CSS e JS compilados](#css-e-js-compilados)
 
 ## Começando com Bootstrap
 
@@ -162,3 +163,14 @@ Você também pode seguir [@getbootstrap](https://twitter.com/getbootstrap) no X
 ## Download
 
 Baixe o Bootstrap para obter o CSS e o JavaScript compilados, código-fonte ou inclua-o em seus gerenciadores de pacotes favoritos, como npm, RubyGems e muito mais.
+
+### CSS e JS compilados
+
+Baixe o código compilado do Bootstrap Versão 5.3.2, pronto para uso, para inserir facilmente em seu projeto, que incluí:
+
+* Pacotes CSS compilados e minificados (veja [comparação de arquivos CSS]())
+* Plugins JavaScript compilados e minificados (veja [comparação de arquivos JS]())
+
+Isso não inclui documentação, código fo9nte ou qualquer dependência opcional de javascript como o Popper.
+
+[Download](https://github.com/twbs/bootstrap/releases/download/v5.3.2/bootstrap-5.3.2-dist.zip)
