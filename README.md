@@ -15,6 +15,7 @@ Versão 5.3
     - [Comunidade](#comunidade)
   - [Download](#download)
     - [CSS e JS compilados](#css-e-js-compilados)
+    - [Código fonte](#código-fonte)
 
 ## Começando com Bootstrap
 
@@ -176,3 +177,16 @@ Isso não inclui documentação, código fo9nte ou qualquer dependência opciona
 [Download Versão 5.3.2](https://github.com/twbs/bootstrap/releases/download/v5.3.2/bootstrap-5.3.2-dist.zip)
 
 [Download local Versão 5.3.2](/Download/bootstrap-5.3.2-dist.zip)
+
+### Código fonte
+
+Compile o Bootstrap com suas próprias ferramentas, baixando nossos Sass, JavaScript e arquivos de documentação. Esta opção requer algumas ferramentas adicionais:
+
+* [Compilador Sass]() para comp0ilar os arquivos fonte Sass para arquivos CSS
+* [Autoprefixer]() para usar prefixos CSS.
+
+Caso você precise de nosso conjunto de [ferramentas de build](), elas es~tao incluídas para desenvolver o bootstrap e seus documentos, mas provavelmente não são adequadas para seus próprios propósitos.
+
+[Download código-fonte Versão 5.3.2](https://github.com/twbs/bootstrap/archive/v5.3.2.zip)
+
+[Download local](Download/bootstrap-5.3.2-codigo-fonte.zip)
