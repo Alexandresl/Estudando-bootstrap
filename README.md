@@ -16,6 +16,7 @@ Versão 5.3
   - [Download](#download)
     - [CSS e JS compilados](#css-e-js-compilados)
     - [Código fonte](#código-fonte)
+    - [Exemplos](#exemplos)
 
 ## Começando com Bootstrap
 
@@ -190,3 +191,10 @@ Caso você precise de nosso conjunto de [ferramentas de build](), elas es~tao in
 [Download código-fonte Versão 5.3.2](https://github.com/twbs/bootstrap/archive/v5.3.2.zip)
 
 [Download local](Download/bootstrap-5.3.2-codigo-fonte.zip)
+
+### Exemplos
+
+Se quiser baixar e examinar nossos exemplos, você fazer o download dos arquivos:
+
+[Download exemplos](Download/bootstrap-5.3.2-examples.zip)
+
