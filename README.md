@@ -20,6 +20,7 @@ Versão 5.3
     - [CDN via jsDelivr](#cdn-via-jsdelivr)
     - [CDNs alternativos](#cdns-alternativos)
     - [Gerenciadores de pacotes](#gerenciadores-de-pacotes)
+    - [npm](#npm)
 
 ## Começando com Bootstrap
 
@@ -236,3 +237,20 @@ openssl dgst -sha384 -binary bootstrap.min.js | openssl base64 -A
 
 Insira os arquivos fonte do Bootstrap em praticamente qualquer projeto com alguns dos gerenciadores de pacotes mais populares. Não importa o gerenciador de pacotes, o Bootstrap **exigirá um [compilador Sass]() e um [Autoprefixer]()** para uma configuração que corresponda às nossas versões compiladas oficiais.
 
+### npm
+
+Instale o Bootstrap em seus aplicativos com Node.js com o [pacote npm](https://www.npmjs.com/package/bootstrap):
+
+```
+npm install bootstrap@5.3.2
+```
+
+```const bootstrap  require("bootstrap")``` ou ```import bootstrap from "bootstrap"``` carregará todos os plugins do bootstrap em objeto bootstrap. O próprio módulo ```bootstrap``` exporta todos os nossos plugins. Você pode carregar manualmente os plug-ins do Bootstrap individualmente carregando os arquivos ```/js/dist/*.js``` no diretório de nível superior do pacote.
+
+O Bootstrap insere no ```package.json``` alguns metadados adicionais nas seguintes chaves:
+
+* ```sass``` - caminho para o arquivo fonte [Sass principal do Bootstrap](https://sass-lang.com/)
+* ```style``` - caminho para o CSS não minificado do Bootstrap que foi compilado usando as configurações padrão (sem personalização)
+
+> [!NOTE]
+> **Comece com Bootstrap via npm com nosso projeto inicial!** Acesse o repositório de modelos [de exemplo Sass e JS](https://github.com/twbs/examples/tree/main/sass-js) para ver como construir e personalizar o Bootstrap em seu próprio projeto npm. Inclui compilador Sass, Autoprefixer, Stylelint, PurgeCSS e ícones Bootstrap.
