@@ -18,6 +18,7 @@ Versão 5.3
     - [Código fonte](#código-fonte)
     - [Exemplos](#exemplos)
     - [CDN via jsDelivr](#cdn-via-jsdelivr)
+    - [CDNs alternativos](#cdns-alternativos)
 
 ## Começando com Bootstrap
 
@@ -213,4 +214,19 @@ Se você estiver usando nosso JavaScript compilado e preferir incluir o Popper s
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+```
+
+### CDNs alternativos
+
+Recomendamos o [jsDeliver](https://www.jsdelivr.com/) e o utilizamos em nossa documentação. No entanto, em alguns casos, como em alguns países ou ambientes específicos, pode ser necessário usar outros provedores de CDN, como [cdnjs](https://cdnjs.com/) ou [unpkg](https://unpkg.com/).
+
+Você encontrará os mesmos arquivos nesses provedores de CDN, embora com URLs diferentes. Com cdnjs, você pode [usar este link direto do pacote Bootestrap](https://cdnjs.com/libraries/bootstrap) para copiar e colar trechos HTML prontos para uso para cadas arquivo dist de qualquer versão do Bootstrap.
+
+> [!WARNING]
+> Se os hashes SRI forem diferentes para um determinado arquivo, você não deverá usar os arquivos desse CDN, pois isso significa que o arquivo foi modificado por outra pessoa.
+
+Observe que você deve comparar hashes do mesmo comprimento, por exemplo, ```sha384``` com ```sha384```, caso contrário, espera-se que sejam diferentes. Dessa forma, você pode usar uma ferramenta online como o [SRI Hash Generator](https://www.srihash.org/) para garantir que os hashes sejam os mesmos para um determinado arquivo. Alternativamente, sopondo que você tenha o OpenSSL instalado, você pode conseguir o mesmo na CLI, por exemplo:
+
+```
+openssl dgst -sha384 -binary bootstrap.min.js | openssl base64 -A
 ```
