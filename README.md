@@ -19,6 +19,7 @@ Versão 5.3
     - [Exemplos](#exemplos)
     - [CDN via jsDelivr](#cdn-via-jsdelivr)
     - [CDNs alternativos](#cdns-alternativos)
+    - [Gerenciadores de pacotes](#gerenciadores-de-pacotes)
 
 ## Começando com Bootstrap
 
@@ -230,3 +231,8 @@ Observe que você deve comparar hashes do mesmo comprimento, por exemplo, ```sha
 ```
 openssl dgst -sha384 -binary bootstrap.min.js | openssl base64 -A
 ```
+
+### Gerenciadores de pacotes
+
+Insira os arquivos fonte do Bootstrap em praticamente qualquer projeto com alguns dos gerenciadores de pacotes mais populares. Não importa o gerenciador de pacotes, o Bootstrap **exigirá um [compilador Sass]() e um [Autoprefixer]()** para uma configuração que corresponda às nossas versões compiladas oficiais.
+
