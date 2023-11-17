@@ -17,6 +17,7 @@ Versão 5.3
     - [CSS e JS compilados](#css-e-js-compilados)
     - [Código fonte](#código-fonte)
     - [Exemplos](#exemplos)
+    - [CDN via jsDelivr](#cdn-via-jsdelivr)
 
 ## Começando com Bootstrap
 
@@ -198,3 +199,18 @@ Se quiser baixar e examinar nossos exemplos, você fazer o download dos arquivos
 
 [Download exemplos](Download/bootstrap-5.3.2-examples.zip)
 
+### CDN via jsDelivr
+
+Ignore o download com [jsDeliver](https://www.jsdelivr.com/) para entregar a versão em cache do CSS e JS compilado do Bootstrap para seu projeto
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+```
+
+Se você estiver usando nosso JavaScript compilado e preferir incluir o Popper separadamente, adicione o Popper antes do nosso JS, de preferência por meio de um CDN.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+```
