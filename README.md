@@ -22,6 +22,7 @@ Versão 5.3
     - [Gerenciadores de pacotes](#gerenciadores-de-pacotes)
     - [npm](#npm)
     - [yarn](#yarn)
+    - [RubyGems](#rubygems)
 
 ## Começando com Bootstrap
 
@@ -263,3 +264,19 @@ Instale o Bootstrap em seus aplicativos com Node.js utilizando o [yarn package](
 ```
 yarn add bootstrap@5.3.2
 ```
+
+### RubyGems
+
+Instale o Bootstrap em sua aplicação Ruby usando [Bundler](https://bundler.io/) (recomendado) e [RubyGems](https://rubygems.org/) adicionando a seguinte linha ao seu [Gemfile](https://bundler.io/guides/gemfile.html):
+
+```
+gem 'bootstrap', '~> 5.3.2'
+```
+
+Alternativamente, se não estiver usando o Bundler, você pode instalar a gem executando este comando:
+
+```
+gem install bootstrap -v 5.3.2
+```
+
+Consulte o [REAME do projeto](https://github.com/twbs/bootstrap-rubygem/blob/main/README.md) para obter mais detalhes.
