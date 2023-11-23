@@ -21,6 +21,7 @@ Versão 5.3
     - [CDNs alternativos](#cdns-alternativos)
     - [Gerenciadores de pacotes](#gerenciadores-de-pacotes)
     - [npm](#npm)
+    - [yarn](#yarn)
 
 ## Começando com Bootstrap
 
@@ -254,3 +255,11 @@ O Bootstrap insere no ```package.json``` alguns metadados adicionais nas seguint
 
 > [!NOTE]
 > **Comece com Bootstrap via npm com nosso projeto inicial!** Acesse o repositório de modelos [de exemplo Sass e JS](https://github.com/twbs/examples/tree/main/sass-js) para ver como construir e personalizar o Bootstrap em seu próprio projeto npm. Inclui compilador Sass, Autoprefixer, Stylelint, PurgeCSS e ícones Bootstrap.
+
+### yarn
+
+Instale o Bootstrap em seus aplicativos com Node.js utilizando o [yarn package](https://classic.yarnpkg.com/en/package/bootstrap)
+
+```
+yarn add bootstrap@5.3.2
+```
